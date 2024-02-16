@@ -1,16 +1,26 @@
+import java.util.Scanner;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        Scanner input = new Scanner(System.in);
+        /*System.out.print("Input your value: ");
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
+        int value = input.nextInt();
+
+        System.out.println(value);*/
+
+        /*System.out.print("Now enter integer separate by a space: ");
+        System.out.println("then press enter");
+
+        int num1 = input.nextInt();
+        int num2 = input.nextInt();
+
+        System.out.println("You have entered " + num1 + " and " + num2);*/
+
+        double price = 254.576;
+        System.out.print("The price is $");
+        System.out.printf("%10.2f", price);
+
+
     }
 }
