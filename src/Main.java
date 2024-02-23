@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+        System.out.println("Ini dari main");
         /*System.out.print("Input your value: ");
 
         int value = input.nextInt();
