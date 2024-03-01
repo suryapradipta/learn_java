@@ -6,6 +6,7 @@ public class Main {
         System.out.println("Ini dari main");
         System.out.println(" I want to rebase this code");
         System.out.println("this is the new rebase");
+        System.out.println("rebase 2");
         /*System.out.print("Input your value: ");
 
         int value = input.nextInt();
