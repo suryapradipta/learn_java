@@ -5,6 +5,7 @@ public class Main {
         Scanner input = new Scanner(System.in);
         System.out.println("Ini dari main");
         System.out.println(" I want to rebase this code");
+        System.out.println("this is the new rebase");
         /*System.out.print("Input your value: ");
 
         int value = input.nextInt();
